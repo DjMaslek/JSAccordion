@@ -1,0 +1,37 @@
+*{
+	margin:0;
+}
+.accordion{
+	font-family: Calibri;
+	width: 60%;
+	margin:20px auto;
+}
+.tabs-text{
+	margin-bottom: 10px;
+	height: 0;
+	overflow: hidden;
+	transition: height .5s;
+}
+h3{
+	font-weight: 300;
+	border:.5px solid #9F9F9F;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #F7F7F7;
+	cursor: pointer;
+	margin-bottom: 10px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+p{
+	padding: 10px 20px;
+	font-size: 14px;
+}
+.active{
+	background-color: #1A9FEB;
+	color: #FFF;
+}
